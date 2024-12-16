@@ -29,6 +29,9 @@ hr{
     padding-top: 50px;
     
 }
+.head{
+    text-align: center;
+}
 @media screen and (max-width:768px){
     .songs-list{
         display: flex;
@@ -40,6 +43,7 @@ hr{
     .song-item{
         margin: 10px;
     }
+    
 }
 .song-item{
     width: 30%;

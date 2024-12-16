@@ -10,7 +10,7 @@
     padding-bottom: 40px;
     
 }
-.head{
+.heading{
     font-size: 32px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,8 +21,8 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    flex-grow: 0;
-    flex-shrink: 2;
+    flex-grow: 2;
+    flex-shrink: 1;
     padding-left: 50px;
     
     
@@ -56,30 +56,54 @@
 .link{
     text-decoration: none;
 }
-@media screen and (max-width:578px){
+@media screen and (max-width:768px){
     .app-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+        min-height: 100vh;
+        width: 100vw;
+    }
+    .heading{
+        text-align: center;
+        font-weight: 700;
+        width: 100%;
+        font-size: 28px;
     }
     .song-names-container{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-grow: 0;
-        flex-shrink: 2;
-        padding-left: 0px;
+        flex-wrap: wrap; 
     }
-    .name-img-div{
+    .name-and-img-div{
+        width: 50%;
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
         margin-left: 0px;
     }
-    .name{
+    .name-img-div{
+        height: 100px;
+        width: 100px;
         padding-left: 0px;
         margin-left: 0px;
         
     }
+    .IMG{
+        width: 100%;
+    }
+    .name{
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-right: 38px;
+    }
+    .link{
+        text-align: center;
+    }
+
     
 }

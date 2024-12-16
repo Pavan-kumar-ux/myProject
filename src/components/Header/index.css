@@ -10,6 +10,17 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+@media (max-width:768px){
+    .logo-head{
+        font-size: 18px;
+    }
+    .nav-header{
+        height: 80px;
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
 .logo-head{
     font-style: italic;
     font-size: 22px;
@@ -17,10 +28,7 @@
     font-weight: 400;
     
 }
-.list{
-    list-style-type: none;
-    margin-right: 30px;
-}
+
 .logout-btn{
     height: 25px;
     width: 60px;

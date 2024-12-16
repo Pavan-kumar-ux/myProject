@@ -35,7 +35,7 @@ const Home = () => {
     <div>
         <Header/>
         <div className='app-container'>
-             <h1 className='head'>Select Your Mood Songs</h1> 
+             <h1 className='heading'>Select Your Mood Songs</h1> 
              <div className='song-names-container'>
                 
                 <div className='name-and-img-div'>
